@@ -1,8 +1,8 @@
 ##In-depth Exploration:
 -- 1. Is there a growing trend in the no. of orders placed over the past years?
 SELECT 
-YEAR(order_purchase_timestamp) AS year_month_wise,
-MONTH(order_purchase_timestamp) AS month_month_wise,
+YEAR(order_purchase_timestamp) AS year_yr,
+MONTH(order_purchase_timestamp) AS month_mn,
 COUNT(order_id) AS num_orders
 FROM orders
 GROUP BY 1,2
