@@ -1,0 +1,5 @@
+CREATE DATABASE target_db;
+
+SHOW DATABASES;
+
+USE taget_db;
